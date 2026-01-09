@@ -12,31 +12,31 @@
   "workbench.tree.enableStickyScroll": false,
   "workbench.tree.indent": 20,
   "workbench.tree.renderIndentGuides": "always",
-"[javascript]": {
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
-"[javascriptreact]": {
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
-"[typescript]": {
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
-"[typescriptreact]": {
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
-"[json]": {
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
-"[css]": {
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
-"[html]": {
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "files.associations": {
     ".env.*": "dotenv",
     ".prettierrc": "json",
-  "*.css": "postcss",
+    "*.css": "postcss",
     ".dev.vars": "dotenv",
     "*.ndjson": "jsonl"
   },
@@ -55,11 +55,7 @@
     "*.ndjson": "brackets-orange"
   },
   "tailwindCSS.experimental.classRegex": [
-    [
-      "tv\\(([^)]*)\\)",
-      "cva\\(([^)]*)\\)",
-      "[\"'`]([^\"'`]*).*?[\"'`]"
-    ],
+    ["tv\\(([^)]*)\\)", "cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
     "class:\\s*?[\"'`]([^\"'`]*).*?,",
     "tw\\('([^']*)'\\)"
   ],
@@ -93,24 +89,20 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "graphql"
-  ],
+  "eslint.validate": ["javascript", "javascriptreact", "graphql"],
   "editor.semanticHighlighting.enabled": false,
   "editor.fontFamily": "JetBrains Mono",
   "editor.tabSize": 2,
   "security.workspace.trust.untrustedFiles": "newWindow",
   "files.exclude": {
-    "**\/CVS": true,
-    "**\/.DS_Store": true,
-    "**\/.hg": true,
-    "**\/.svn": true,
-    "**\/.git": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/.git": true,
     ".vscode": true
   },
-  "workbench.iconTheme": "flow-dark",
+  "workbench.iconTheme": "flow-dim",
   "update.mode": "start",
   "terminal.integrated.gpuAcceleration": "on",
   "terminal.integrated.defaultProfile.osx": "fish",
@@ -124,7 +116,7 @@
   "explorer.sortOrder": "foldersNestsFiles",
   "explorer.fileNesting.enabled": true,
   "workbench.statusBar.visible": false,
-  "workbench.layoutControl.enabled": true,
+  "workbench.layoutControl.enabled": false,
   "window.autoDetectColorScheme": true,
   "workbench.preferredDarkColorTheme": "Min Dark",
   "workbench.preferredLightColorTheme": "Oscura Dusk",
@@ -150,4 +142,7 @@
     "markdown": false,
     "scminput": false
   },
+  "workbench.navigationControl.enabled": false,
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "compact"
 }

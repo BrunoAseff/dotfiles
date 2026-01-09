@@ -1,0 +1,7 @@
+background-opacity = 0.6
+theme = IR Black
+cursor-style = bar
+shell-integration-features = no-cursor
+window-padding-x = 6
+window-padding-y = 6
+keybind = cmd+shift+d=toggle_window_decorations

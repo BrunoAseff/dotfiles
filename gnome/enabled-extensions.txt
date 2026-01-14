@@ -1,0 +1,1 @@
+['ubuntu-dock@ubuntu.com', 'tiling-assistant@ubuntu.com', 'Vitals@CoreCoding.com', 'blur-my-shell@aunetx', 'just-perfection-desktop@just-perfection', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'system-monitor@gnome-shell-extensions.gcampax.github.com', 'ding@rastersoft.com']
